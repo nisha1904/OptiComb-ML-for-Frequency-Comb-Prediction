@@ -30,13 +30,15 @@ The developed models demonstrated significant improvements in prediction accurac
 ## 📂 Project Structure  
 ```bash
 OptiComb/
-│──src
-    │──Model_trainer.ipynb   # Main Jupyter Notebook 
-    │── pm.xlsx              # Experimental dataset with multiple RF2 sheets
-│── rf_dc_dataset.csv        # Generated dataset (RF/DC with frequencies)
-│── rf_dc_mapped_dataset.csv # Dataset after mapping with experimental data                
-│── README.md                # Project documentation
+│── src
+│   │── Model_trainer.ipynb   # Main Jupyter Notebook 
+│   │── pm.xlsx               # Experimental dataset with multiple RF2 sheets
+│── rf_dc_dataset.csv         # Generated dataset (RF/DC with frequencies)
+│── rf_dc_mapped_dataset.csv  # Dataset after mapping with experimental data                
+│── README.md                 # Project documentation
 │── Requirements.txt
+```
+
 ---
 
 ## 📊 Results  
@@ -51,27 +53,32 @@ OptiComb/
    ```bash
    git clone https://github.com/nisha1904/OptiComb-ML-for-Frequency-Comb-Prediction.git
    cd OptiComb-ML-for-Frequency-Comb-Prediction
-2. Open the Jupyter Notebook
-    ```bash
-    jupyter notebook src/Model_trainer.ipynb
+   ```
+2. Open the Jupyter Notebook:  
+   ```bash
+   jupyter notebook src/Model_trainer.ipynb
+   ```
+3. Run all cells to:  
+   - Generate datasets  
+   - Preprocess & map experimental data  
+   - Train models (LSTM, FNN, Random Forest)  
+   - Visualize results  
 
-3. Run all cells to:
-    Generate datasets
-    Preprocess & map experimental data
-    Train models (LSTM, FNN, Random Forest)
-    Visualize results
+---
 
-📊 Dataset Availability
+## 📊 Dataset Availability  
+The experimental dataset (`pm.xlsx`) contains sensitive research data and is **available upon request** for academic/research purposes.  
+If you are interested, please reach out to the author directly.  
 
-The experimental dataset (pm.xlsx) contains sensitive research data and is available upon request for academic/research purposes.
-If you are interested, please reach out to the author directly.
+---
 
-👤 Author
+## 📜 License  
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.  
 
-Nisha Kumari
+---
 
-🎓 Co-developer of the project as part of a Ph.D. research collaboration
-
-📧 Email: nisha1922004@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/nisha-kumari-2964bb212/
+## 👤 Author  
+**Nisha Kumari**  
+- 🎓 Co-developer of the project as part of a Ph.D. research collaboration  
+- 📧 Email: [nisha1922004@gmail.com](mailto:nisha1922004@gmail.com)  
+- 🔗 LinkedIn: [Nisha Kumari](https://www.linkedin.com/in/nisha-kumari-2964bb212/)  
