@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: OptiComb-ML-for-Frequency-Comb-Prediction
+Version: 0.0.1
+Author: Nisha Kumari
+Author-email: nisha1922004@gmail.com
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: openpyxl
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
